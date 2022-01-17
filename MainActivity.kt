@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             else{
                 val builder = AlertDialog.Builder(this)
                 builder.setTitle("Are you sure?")
-                builder.setMessage("Do you really want to reset your store and level?")
+                builder.setMessage("Do you really want to reset your sсore and level?")
                 builder.setPositiveButton("YES", { dialog, whichButton ->
                     delete.start()
                     resetScore()
